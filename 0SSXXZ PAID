@@ -16,7 +16,7 @@ OrionLib:MakeNotification({
 	Time = 5
 }) --Notification
 
-getgenv().Key = "0ssxxz paide script" --Put The Correct Key Here
+getgenv().Key = "0ssxxz paid script" --Put The Correct Key Here
 getgenv().KeyInput = "string" --KeyInput Require To Make The Key Work
 
 local Tab = Window:NewTab("key system") --This Will Make A Tab
