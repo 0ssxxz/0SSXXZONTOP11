@@ -1,72 +1,290 @@
-local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))() --This Will Load The Script Code
-local Window = Library.CreateLib("0ssxxz Key System", "DarkTheme") --This Will Make The Script Hub
+local kavoUi = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local window = kavoUi.CreateLib("0ssxxz Script Hub","Synapse")
 
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))() 
+---Hi
+ 
+local Tab1 = window:NewTab("Locks")
+local Tab1Section = Tab1:NewSection("Basic Scripts")
+ 
+--
 
-local Player = game.Players.LocalPlayer
-
-function CorrectKeyAndLoadTheScript()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/0ssxxz/0SSXXZONTOP1/main/0SSXXZ", true))()() --This Where You Put The Script That Will Be Loaded If The Key Is Correct
-end
-
-OrionLib:MakeNotification({
-	Name = "Logged In!",
-	Content = "You need key "..Player.Name..".",
-	Image = "rbxassetid://13076636620",
-	Time = 5
-}) --Notification
-
-getgenv().Key = "0ssxxz paid script" --Put The Correct Key Here
-getgenv().KeyInput = "string" --KeyInput Require To Make The Key Work
-
-local Tab = Window:NewTab("key system") --This Will Make A Tab
-
-local Section = Tab:NewSection("Key System") --This Will Make A Section
-
-Section:NewTextBox("Enter Key", "Key", function(Value)
-		getgenv().KeyInput = Value
-end) 
-
-Section:NewButton("Check Key", "This Will Check The Key You Enter", function()
-            if getgenv().KeyInput == getgenv().Key then
-            OrionLib:MakeNotification({
-                Name = "Checking Key",
-                Content = "Checking The Key You Entered",
-                Image = "rbxassetid://16324331560",
-                Time = 5
-            })
-            wait(2)
-            OrionLib:MakeNotification({
-                Name = "Correct Key!",
-                Content = "The key you entered is Valid.",
-                Image = "rbxassetid://16324331560",
-                Time = 5
-            })
-            wait(.3)
-            CorrectKeyAndLoadTheScript()
-        else
-           OrionLib:MakeNotification({
-                Name = "Checking Key",
-                Content = "Checking The Key You Entered",
-                Image = "rbxassetid://16324331560",
-                Time = 5
-            })
-            wait(2)
-            OrionLib:MakeNotification({
-                Name = "Incorrect Key!",
-                Content = "The key you entered is invalid.",
-                Image = "rbxassetid://16324331560",
-                Time = 5
-            })
-        end
-end)  
-
-Section:NewButton("Copy Link", "Copy Link To Get Key Or Join Server", function()
-          		setclipboard("https://discord.gg/sjxWAPDYxq") --Put The Link Here
-          OrionLib:MakeNotification({
-                Name = "Copied Link!",
-                Content = "Success Copied Link.",
-                Image = "rbxassetid://16324331560",
-                Time = 5
-            })
+Tab1Section:NewButton("EarthLock Very Blatant(Q Tool)", "Use Q Tool For This", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/gzFZCnZG", true))()
 end)
+
+
+Tab1Section:NewButton("Cam Lock(Q Tool)","Use Q Tool For This", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/P7E8c7Qu", true))()
+end)
+
+
+Tab1Section:NewButton("RyzzChips","Already Has A Tool", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Ryzzchips/SubtoRyzzchips/main/Sub%20to%20Ryzzchips%20for%20more%20New%20aimlock%20script!", true))()
+end)     
+
+
+Tab1Section:NewButton("CamLock With Dot(Q Tool)","Best One", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/SkUXFa90"))();
+end)
+
+
+Tab1Section:NewButton("Thusky Cam Lock(Q Tool)","Mid CamLock", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/ZCzrwq8A", true))()
+end)        
+  
+
+Tab1Section:NewButton("Wuss Private(Q Tool)","Kinda Op", function()
+     loadstring(game:HttpGet("https://pastebin.com/raw/nM35Hwkm"))();
+end)
+
+
+Tab1Section:NewButton("Red Dot Lock Op(C Tool)","Op Red Dot", function()
+     loadstring(game:HttpGet("https://pastebin.com/raw/kuAWHX0x"))();   
+end)
+
+
+Tab1Section:NewButton("FlashLock(Q Tool)","Op", function()
+     loadstring(game:HttpGet("https://pastebin.com/raw/Mptuszxm"))();
+end)
+
+
+Tab1Section:NewButton("Scape-Paid(Q Tool)","Best Lock", function()
+     loadstring(game:HttpGet("https://pastebin.com/raw/QAPELC4F"))();
+end)
+
+
+Tab1Section:NewButton("WussDotLock(Q Tool)","Good Dot Lock", function()
+     loadstring(game:HttpGet("https://pastebin.com/raw/e02XTVtZ"))();   
+end)
+
+Tab1Section:NewButton("CamLock Op(Q Tool)", "Op", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kar1l/l/main/l"))()
+end)       
+
+
+Tab1Section:NewButton("Tapped Cam Lock(Q Tool)", "Cam Lock", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/PTQ2kTdr"))();
+end)
+
+
+Tab1Section:NewButton("Evans Basic Cam Lock(Q Tool)", "Basic Cam Lock", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/h8EhktGW"))();    
+end)
+
+
+--Hi
+
+local Tab2 = window:NewTab("Basic IOS Scripts")
+local Tab2Section = Tab2:NewSection("Tools For Mobile Players")
+
+
+Tab2Section:NewButton("FakeMacro", "Don't Make It Obvious That It Is Fake", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/fs1t5zRF", true))()
+end)
+
+
+Tab2Section:NewButton("KeyBoard", "For The Gui", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))() 
+end)
+
+Tab2Section:NewButton("Perm Q Tool", "For You Guy On Mobile Can Use This", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/CdsZ2AQf", true))()
+end)
+
+
+Tab2Section:NewButton("Q Tool", "For You Guys On Mobile You Can Use This", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/LeqtMibN", true))()
+end)
+
+
+Tab2Section:NewButton("C Tool", "For You Guys On Mobile You Can Use This", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/5HA4jkUH", true))()
+end)
+
+
+Tab2Section:NewButton("V Tool", "For You Guys On Mobile You Can Use This", function()
+end)
+
+
+Tab2Section:NewButton("A Tool", "For You Guys On Mobile You Can Use This", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/yD3DXesd", true))()
+end)
+
+
+Tab2Section:NewButton("P Tool", "For You Guys On Mobile You Can Use This", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/T9FMKcxX", true))()
+end)
+
+
+Tab2Section:NewButton("K Tool", "For You Guys On Mobile You Can Use This", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/FwW4mMWe", true))()
+end)
+
+
+Tab2Section:NewButton("E Tool", "For You Guys On Mobile You Can Use This", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/XibfhcAy", true))()
+end)
+
+--hi
+
+local Tab3 = window:NewTab("Anti Lock And Aim Viewer")
+local Tab3Section = Tab3:NewSection("Best Anti Lock And Aim Viewer")
+
+
+  Tab3Section:NewButton("Aim Viewer", "Use KeyBoard To Close And Open The Gui ", function()
+     loadstring(game:HttpGet("https://pastebin.com/raw/cEsxvDBn", true))()
+end)
+ 
+Tab3Section:NewButton("Anti Lock(Key Is Z)","Use KeyBoard To Use It", function()
+     loadstring(game:HttpGet(('https://raw.githubusercontent.com/AvianProjects/Dahood/main/AntilockerV2'),true))()
+end)
+
+--hi
+
+local Tab4 = window:NewTab("Misc")
+local Tab4Section = Tab4:NewSection("Basic Misc")
+
+
+Tab4Section:NewButton("Headless And Korblox", "Looks Legit", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/H5yx10Jq"))();
+end)
+
+
+Tab4Section:NewButton("Stretch Res Mobile", "Works Little Funky But Still Works", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/RsNCn2Zn"))();
+end)       
+
+
+Tab4Section:NewButton("Shaders", "Works Fine If You Know How To Use" , function()
+   loadstring(game:HttpGet(('https://pastefy.app/xXkUxA0P/raw'),true))()
+end)
+
+
+Tab4Section:NewButton("Auto Reload", "Reloads Fast", function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/8jZTP6jH"))();
+end)
+
+
+Tab4Section:NewButton("IOS esp", "See Where EveryOne Is At", function()
+   loadstring(game:HttpGet("https://paste.gg/p/anonymous/7259b0557ebf44ccabf2f7b58dc79899/files/0475cb5d744642a2b572e3a8af205588/raw"))()
+end)
+
+
+Tab4Section:NewButton("Auto Generate", "Generate Your Prediction", function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/D3rjuiAF"))();
+end)
+
+
+Tab4Section:NewButton("Rgb Color Text", "When You Type It Turn Chat Bubble Rainbow", function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/X9vHN1u8"))();    
+   
+end)
+
+
+Tab4Section:NewButton("Chat Spammer", "Funny To Use", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/MmvmGSq8"))();
+end)       
+
+
+Tab4Section:NewButton("Auto Clicker", "Op If You Know How To Use", function()
+     getgenv().key = "Hostile"
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/The-telligence/main/MC%20KSystem%202"))()
+end)      
+
+
+Tab4Section:NewButton("RightClick", "For People Who Dont Play On Pc Or Xbox", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/BalligusapoTT/BalligusapoTT/main/Leftclickballi'))()
+end)   
+
+
+Tab4Section:NewButton("Cash Aura", "Auto Pick Up Cash", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/Fh2kLJvt"))();
+end)
+
+
+Tab4Section:NewButton("Cash Counter", "counts how much Da Hood Cash There Is On The Floor", function()
+       _G.Text = '0ssxxz cash counter'
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EpicPug/dahood/main/CashCounter.lua'))()
+end)     
+
+
+Tab4Section:NewButton("Anti Fling", "For Those Annyoing People Who Fling You", function()
+     loadstring(game:HttpGet("https://pastebin.com/raw/wSxTAaQS"))()
+end)
+
+Tab4Section:NewButton("Auto Farm", "Farms Atms And Cash Registers", function()
+_G.ToolMode = '1' -- '1' for Combat | '2' for Knife
+_G.FpsCap = 25 -- fpscap For your Account
+_G.LowGfx = true -- true for LowGfx on | false for LowGfx off
+_G.ToggleKey = 'v' -- Toggle Key to hide Gui
+
+_G.Webhook = {
+	['Url'] = 'YOUR WEBHOOK HERE!', -- Put Your Webhook Here or leave blank to not use Webhooks
+	['Time'] = 100, -- Sends Webhook Every 15 minutes
+}
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EpicPug/dahood/main/AutoFarm.lua',true))()
+
+--[[ Discord Server: https://discord.gg/bsh38hVbBF ]]
+end)
+
+Tab4Section:NewButton("Box Farm", "When It Reaches 2500 Leave And Rejoin", function()
+        _G.FpsCap = 20
+_G.Webhook = '' -- Put Your Webhook Here or leave blank to not use Webhooks
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EpicPug/dahood/main/BoxFarm.lua'))()
+end)
+
+
+Tab4Section:NewButton("Tp", "Tp To Anyone And Easy To Work", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TherealXORA/Roblox-Scripts/main/Teleportation%20Script", true))()
+end)
+
+Tab4Section:NewButton("Anti Afk", "For You Dont Get Kicked Out Of The Game For Being Idle", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/ZZF9p8PE'))()
+end)
+
+
+
+                        
+local Tab5 = window:NewTab("Resolvers")
+local Tab5Section = Tab5:NewSection("Resolvers")
+
+Tab5Section:NewButton("Resolver 1", "When People Use Anti Lock Use This", function()
+     loadstring(game:HttpGet("https://pastebin.com/raw/Emh3awnh"))();
+end)    
+
+
+Tab5Section:NewButton("Resolver 2", "When People Use Anti Lock Use This", function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/wMKUsLMW"))()
+end)
+
+
+Tab5Section:NewButton("Resolver 3", "When People Use Anti Lovk Use This", function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/kdM9iXA9"))()
+
+end)
+
+
+local Tab6= window:NewTab("Da Hood Gui")
+local Tab6Section = Tab6:NewSection("Gui")
+
+
+Tab6Section:NewButton("NukerMode", "Fun To Use", function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/Allvideo/test/main/Whitelist.txt"))() 
+end)
+
+
+Tab6Section:NewButton("SpaceX", "Fun To Use", function()      
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/spacexrandom/Lua/main/DaHood", true))()
+end)
+
+
+Tab6Section:NewButton("Faded", "Fun To Use", function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
+end)     
+
+
+Tab6Section:NewButton("Nyula", "Fun To Use", function()
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/nyulachan/nyula/main/nyulauh"))();  
+end)
+
