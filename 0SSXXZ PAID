@@ -8,13 +8,13 @@ local Tab1Section = Tab1:NewSection("Basic Scripts")
  
 --
 
-Tab1Section:NewButton("EarthLock Very Blatant(Q Tool)", "Use Q Tool For This", function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/gzFZCnZG", true))()
+Tab1Section:NewButton("EarthLock Very Blatant(C To Lock On)", "Use Q Tool For This", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/xb6f8m4e", true))()
 end)
 
 
-Tab1Section:NewButton("Cam Lock(Q Tool)","Use Q Tool For This", function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/P7E8c7Qu", true))()
+Tab1Section:NewButton("Cam Lock(E To Lock On)","Use Q Tool For This", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/1v5rMZMm", true))()
 end)
 
 
@@ -23,18 +23,18 @@ Tab1Section:NewButton("RyzzChips","Already Has A Tool", function()
 end)     
 
 
-Tab1Section:NewButton("CamLock With Dot(Q Tool)","Best One", function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/SkUXFa90"))();
+Tab1Section:NewButton("CamLock With Dot(C To Locn On)","Best One", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/4UMJ5AYD"))();
 end)
 
 
-Tab1Section:NewButton("Thusky Cam Lock(Q Tool)","Mid CamLock", function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/ZCzrwq8A", true))()
-end)        
+Tab1Section:NewButton("Thusky Cam Lock(C To Lock On)","Mid CamLock", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/sFstvfq4"))();
+end)            
+        
   
-
-Tab1Section:NewButton("Wuss Private(Q Tool)","Kinda Op", function()
-     loadstring(game:HttpGet("https://pastebin.com/raw/nM35Hwkm"))();
+Tab1Section:NewButton("Wuss Private(E To Lock On)","Kinda Op", function()
+     loadstring(game:HttpGet("https://pastebin.com/raw/cyg4F7bD"))();
 end)
 
 
@@ -43,38 +43,37 @@ Tab1Section:NewButton("Red Dot Lock Op(C Tool)","Op Red Dot", function()
 end)
 
 
-Tab1Section:NewButton("FlashLock(Q Tool)","Op", function()
-     loadstring(game:HttpGet("https://pastebin.com/raw/Mptuszxm"))();
+Tab1Section:NewButton("FlashLock(C To Lock On)","Op", function()
+     loadstring(game:HttpGet("https://pastebin.com/raw/h8qnXjTn"))();
 end)
 
 
-Tab1Section:NewButton("Scape-Paid(Q Tool)","Best Lock", function()
-     loadstring(game:HttpGet("https://pastebin.com/raw/QAPELC4F"))();
+Tab1Section:NewButton("Scape-Paid(E To Lock On)","Best Lock", function()
+     loadstring(game:HttpGet("https://pastebin.com/raw/NSYgQqH1"))();
 end)
 
 
-Tab1Section:NewButton("WussDotLock(Q Tool)","Good Dot Lock", function()
-     loadstring(game:HttpGet("https://pastebin.com/raw/e02XTVtZ"))();   
+Tab1Section:NewButton("WussDotLock(C To Lock On)","Good Dot Lock", function()
+     loadstring(game:HttpGet("https://pastebin.com/raw/N5H839uf"))();   
 end)
 
-Tab1Section:NewButton("CamLock Op(Q Tool)", "Op", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/kar1l/l/main/l"))()
+Tab1Section:NewButton("CamLock Op(E To Lock On)", "Op", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/hHJNSzrC"))();
 end)       
 
 
-Tab1Section:NewButton("Tapped Cam Lock(Q Tool)", "Cam Lock", function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/PTQ2kTdr"))();
+Tab1Section:NewButton("Tapped Cam Lock(C To Lock On)", "Cam Lock", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/1Pk9J0We"))();
 end)
 
 
 Tab1Section:NewButton("Evans Basic Cam Lock(Q Tool)", "Basic Cam Lock", function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/h8EhktGW"))();    
+    loadstring(game:HttpGet("https://pastebin.com/raw/AMvzkbBp"))();    
 end)
-
 
 --Hi
 
-local Tab2 = window:NewTab("Basic IOS Scripts")
+local Tab2 = window:NewTab("Scripts For Mobile")
 local Tab2Section = Tab2:NewSection("Tools For Mobile Players")
 
 
@@ -235,16 +234,15 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/EpicPug/dahood/main/B
 end)
 
 
-Tab4Section:NewButton("Tp", "Tp To Anyone And Easy To Work", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/TherealXORA/Roblox-Scripts/main/Teleportation%20Script", true))()
-end)
-
 Tab4Section:NewButton("Anti Afk", "For You Dont Get Kicked Out Of The Game For Being Idle", function()
     loadstring(game:HttpGet('https://pastebin.com/raw/ZZF9p8PE'))()
 end)
 
 
-
+Tab4Section:NewButton("Tp", "Tp To Anyone And Easy To Work", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TherealXORA/Roblox-Scripts/main/Teleportation%20Script", true))()
+end)
+        
                         
 local Tab5 = window:NewTab("Resolvers")
 local Tab5Section = Tab5:NewSection("Resolvers")
